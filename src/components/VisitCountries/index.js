@@ -1,7 +1,7 @@
 // Write your code here
 import {Component} from 'react'
 import CountryItem from '../CountryItem'
-import VisitedItem from '../VisitedItem'
+import VisitItem from '../VisitItem'
 
 import './index.css'
 
@@ -129,7 +129,7 @@ class VisitCountries extends Component {
         <ul>
           {visitedCountriesList.length > 0 ? (
             visitedCountriesList.map(eachCountry => (
-              <VisitedItem
+              <VisitItem
                 key={eachCountry.id}
                 countryDetails={eachCountry}
                 clickRemove={this.clickRemove}

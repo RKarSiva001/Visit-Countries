@@ -1,7 +1,7 @@
 // Write your code here
 import './index.css'
 
-const VisitedItem = props => {
+const VisitItem = props => {
   const {countryDetails, clickRemove} = props
   const {id, name, imageUrl} = countryDetails
 
@@ -22,4 +22,4 @@ const VisitedItem = props => {
   )
 }
 
-export default VisitedItem
+export default VisitItem
